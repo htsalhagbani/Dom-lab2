@@ -28,9 +28,13 @@ setInterval(() => {
  cube.style.width= Math.floor(Math.random() * (600 - 3000 + 1)) + 400+"px";
  cube.style.height= Math.floor(Math.random() * (800 - 3000 + 1)) +400 +"px";
 
- cube.style.left=Math.floor(Math.random() * (50 - 100 + 1)) + 300+"px";
- cube.style.top=Math.floor(Math.random() * (50 - 100 + 1)) + 300+"px";
+//  cube.style.left=Math.floor(Math.random() * (50 - 100 + 1)) + 300+"px";
+//  cube.style.top=Math.floor(Math.random() * (50 - 100 + 1)) + 300+"px";
 
-}, 200);
+ let x= Math.floor(Math.random() * (1000 - 50 + 1)) + 50;
+ let y=Math.floor(Math.random() * (1000 - 50 + 1)) + 50;
+
+ cube.style.transform=`translate(${x}px, ${y}px)`;
+}, 2000);
 
 
