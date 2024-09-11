@@ -25,8 +25,8 @@ setInterval(() => {
 
    
  cube.style.backgroundColor = randomHexColor();
- cube.style.width= Math.floor(Math.random() * (200 - 700 + 1)) + 100+"px";
- cube.style.height= Math.floor(Math.random() * (200 - 700 + 1)) + 100+"px";
+ cube.style.width= Math.floor(Math.random() * (200 - 1000 + 1)) + 100+"px";
+ cube.style.height= Math.floor(Math.random() * (200 - 1000 + 1)) + 100+"px";
 
  cube.style.left=Math.floor(Math.random() * (50 - 100 + 1)) + 100+"px";
  cube.style.top=Math.floor(Math.random() * (50 - 100 + 1)) + 100+"px";
